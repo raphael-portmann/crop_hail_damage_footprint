@@ -8,6 +8,7 @@ Raphael Portmann, Agroscope Reckenholz, Zurich, Switzerland\
 E-Mail: raphael.portmann@agroscope.admin.ch or raphael.portmann@alumni.ethz.ch
 
 Requires [**Climada 4.0.1**](https://climada-python.readthedocs.io/en/v4.0.1/misc/README.html) or higher
+
 **python version**: 3.9.16
 
 The scripts use hazard (hail), exposure (crops), and damage (hail_damage_crops) data that is provided with this publication via the [Climada Data-API](https://climada.ethz.ch/data-types/).
