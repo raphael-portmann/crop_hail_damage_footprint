@@ -1804,46 +1804,46 @@ def plot_roc_diagram(ax):
     return ax,h
 
 def plot_diagram_points(at_centroid_data_var,variable,opt_resolutions,exp_thresh,opt_threshs,unit,score,colors,markers,fontsize,ax,labeled=True,label_resolutions=True,loc_thresh_labels='l'):
-    """
-    Plot points in Performance diagram
+        """
+        Plot points in Performance diagram
 
-    Parameters
-    ----------
-    at_centroid_data_var : TYPE
-        DESCRIPTION.
-    variable : TYPE
-        DESCRIPTION.
-    opt_resolutions : TYPE
-        DESCRIPTION.
-    exp_thresh : TYPE
-        DESCRIPTION.
-    opt_threshs : TYPE
-        DESCRIPTION.
-    unit : TYPE
-        DESCRIPTION.
-    score : TYPE
-        DESCRIPTION.
-    colors : TYPE
-        DESCRIPTION.
-    markers : TYPE
-        DESCRIPTION.
-    fontsize : TYPE
-        DESCRIPTION.
-    ax : TYPE
-        DESCRIPTION.
-    labeled : TYPE, optional
-        DESCRIPTION. The default is True.
-    label_resolutions : TYPE, optional
-        DESCRIPTION. The default is True.
-    loc_thresh_labels : TYPE, optional
-        DESCRIPTION. The default is 'l'.
+        Parameters
+        ----------
+        at_centroid_data_var : TYPE
+            DESCRIPTION.
+        variable : TYPE
+            DESCRIPTION.
+        opt_resolutions : TYPE
+            DESCRIPTION.
+        exp_thresh : TYPE
+            DESCRIPTION.
+        opt_threshs : TYPE
+            DESCRIPTION.
+        unit : TYPE
+            DESCRIPTION.
+        score : TYPE
+            DESCRIPTION.
+        colors : TYPE
+            DESCRIPTION.
+        markers : TYPE
+            DESCRIPTION.
+        fontsize : TYPE
+            DESCRIPTION.
+        ax : TYPE
+            DESCRIPTION.
+        labeled : TYPE, optional
+            DESCRIPTION. The default is True.
+        label_resolutions : TYPE, optional
+            DESCRIPTION. The default is True.
+        loc_thresh_labels : TYPE, optional
+            DESCRIPTION. The default is 'l'.
 
-    Returns
-    -------
-    ax : TYPE
-        DESCRIPTION.
+        Returns
+        -------
+        ax : TYPE
+            DESCRIPTION.
 
-    """
+        """
     
         x_threshs={thresh: [] for thresh in opt_threshs}
         y_threshs={thresh: [] for thresh in opt_threshs}
